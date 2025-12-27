@@ -1,0 +1,85 @@
+Raghavender Addani
+Senior Python Developer
+Hyderabad | raga.addani94@gmail.com | +91 9603597359
+
+SUMMARY
+Senior Python Developer with strong experience in building scalable RESTful APIs using FastAPI, Flask, and Django, and designing high-performance backend systems. Proficient in MySQL and MongoDB for reliable data storage and management, with hands-on expertise in Docker, AWS, and Azure for cloud-native application development and deployment. Additionally experienced in Machine Learning and AI fundamentals.
+
+PROFESSIONAL EXPERIENCE
+
+Python Engineer | Sampradaa Software Technologies (Contract)
+April 2025 - June 2025
+- Designed and developed RESTful APIs from scratch using FastAPI, enabling secure microservices communication with Kong Gateway.
+- Implemented secure key management using Python’s uuid and secrets, with simulated integrations to HashiCorp Vault and AWS Secrets Manager.
+- Built modular, reusable backend components ensuring clean architecture and scalability.
+- Containerized applications with Docker, creating optimized images, managing containers, and handling persistent data storage.
+- Collaborated in Agile teams (Jira), contributed to unit testing and documented workflows with Swagger/OpenAPI.
+
+Associative Software Engineer | CULINDA IND PVT LTD (Remote, USA)
+Apr 2023 - Feb 2024
+- Worked extensively with Python programming to build and integrate NLP and machine learning models, including text preprocessing, feature engineering, and text classification workflows.
+- Assisted in developing and training deep learning models for computer vision and emotion/gender detection use cases.
+- Gained hands-on experience with TensorFlow 2.x for model building, evaluation, and basic deployment of AI models into applications.
+- Developed NLP models, data analysis pipelines, and deep learning solutions using Python, Pandas, NumPy, and PyTorch.
+- Created interactive and static data visualizations using Plotly and Matplotlib to communicate insights.
+- Optimized model performance, data workflows, and visualization pipelines for scalable production systems.
+- Worked extensively with AWS cloud services such as EC2, S3, VPC, IAM, Route 53, RDS, and DynamoDB.
+- Designed robust API architecture with versioning, standardized error handling, and request validation.
+- Optimized API performance using asynchronous programming, query optimization, caching (Redis), and rate limiting.
+- Debugged and resolved production issues through monitoring, logging, and root-cause analysis.
+
+Associative Software Engineer | Suchir Softech Pvt Ltd / Culinda (Remote, USA)
+Mar 2022 - Mar 2023
+- Designed and developed scalable, production-grade backend systems using Python, FastAPI, Flask, and microservices architecture.
+- Built and secured RESTful APIs, ensuring scalability, fault tolerance, authentication, authorization, and data protection.
+- Architected and implemented a Threat Intelligence Platform for detecting and analyzing digital attacks.
+- Integrated backend services with Swimlane SOAR, enabling automated incident creation.
+- Designed and optimized MongoDB data models to store threat indicators and attack metadata.
+- Developed asynchronous, event-driven processing pipelines using Python async/await.
+- Utilized advanced Python programming concepts including OOP, list comprehensions, and generators.
+- Leveraged NumPy and Pandas for threat data analysis and feature extraction.
+- Containerized microservices using Docker and deployed applications on Kubernetes.
+- Built and maintained CI/CD pipelines using GitHub Actions and Jenkins.
+- Worked extensively with AWS cloud services (EC2, S3, VPC, IAM, Route 53, RDS, DynamoDB).
+- Implemented OAuth2/JWT-based authentication and rate limiting.
+
+Associative Software Engineer | Amynasec Research Lab
+Oct 2021 - Feb 2022
+- Collaborated across all phases of the SDLC in enterprise environments.
+- Provisioned and managed Ubuntu-based Virtual Machines (VMs) for development and testing.
+- Developed Python scripts to collect and process Threat Intelligence data.
+- Integrated Threat Intelligence pipelines with the ELK Stack (Elasticsearch, Logstash, Kibana).
+- Designed and implemented efficient data structures to optimize data storage and retrieval.
+- Applied strong knowledge of Data Structures, Algorithms, and Design Patterns.
+- Integrated third-party and REST APIs securely and efficiently.
+- Created and maintained backups of Ubuntu Virtual Machines and Docker containers.
+- Performed system monitoring, log analysis, and troubleshooting on Linux/Ubuntu servers.
+- Utilized Git for version control, managing branching strategies and merges.
+
+Jr. Software Engineer | ENS TECHNOLOGIES PVT LTD
+Jan 2019 - Sep 2021
+- Collaborated across all stages of the SDLC.
+- Designed and developed secure backend services for a healthcare platform (telemedicine, EHR) using Python, Flask, and Django.
+- Built and maintained RESTful APIs for appointment management and patient data workflows.
+- Designed and optimized MySQL databases for sensitive healthcare information.
+- Integrated legacy healthcare systems and third-party services through API-based integration.
+- Tested and validated APIs using Postman.
+- Managed source code and deployments using Git and GitHub.
+
+EDUCATION
+- Masters in Physics | Osmania University, Hyderabad (2017)
+- B.Sc Computer Science | Palamuru University (2014)
+
+SKILLS
+- Python, FastAPI, Flask, Django, RESTful APIs
+- Machine Learning, NLP, TensorFlow, Scikit-learn, Pandas, NumPy
+- Docker, Kubernetes, AWS, Azure, Jenkins, Terraform
+- MySQL, MongoDB, Elasticsearch
+- Git, GitHub, Jira
+
+CERTIFICATIONS
+- ChatGPT & AI Tools Workshop
+- Artificial Intelligence Engineer Certification
+- Cybersecurity Professional Certification
+- Python for Data Science – Professional
+- Python Statistics for Data Science
