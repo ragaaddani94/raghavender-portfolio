@@ -254,6 +254,7 @@ ul {
     font-weight: 600;
     margin-bottom: 1.5rem;
     border: 1px solid rgba(56, 189, 248, 0.2);
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
 }
 
 .tagline {
@@ -501,11 +502,78 @@ ul {
     color: var(--primary);
 }
 
-/* Education & Certifications */
-.two-col-grid {
+/* Projects Section */
+.projects-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2.5rem;
+}
+
+.project-card {
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    transition: 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(56, 189, 248, 0.3);
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+.project-content {
+    padding: 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-content h3 {
+    font-size: 1.4rem;
+    color: var(--text-main);
+    margin-bottom: 0.8rem;
+}
+
+.project-content p {
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    flex: 1;
+}
+
+.project-tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: auto;
+}
+
+.project-tech-stack span {
+    font-size: 0.8rem;
+    background: rgba(56, 189, 248, 0.1);
+    color: var(--primary);
+    padding: 0.3rem 0.7rem;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+/* Education & Certifications */
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cert-container {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .card {
@@ -513,7 +581,8 @@ ul {
     padding: 1.5rem;
     border-radius: var(--radius);
     border: 1px solid rgba(255, 255, 255, 0.03);
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
+    /* Removed margin-bottom since grid gap handles it */
 }
 
 .card-header {
@@ -758,3 +827,127 @@ ul {
     animation: float 6s ease-in-out infinite 1.8s;
     background: rgba(15, 23, 42, 0.7);
 }
+
+/* Project Details Styling */
+.project-content h4 {
+    font-size: 1.1rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.project-date {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-weight: 400;
+}
+
+.project-details {
+    margin: 0.8rem 0;
+}
+
+.project-details h5 {
+    font-size: 0.95rem;
+    color: var(--text-main);
+    margin-bottom: 0.3rem;
+    margin-top: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.project-details ul {
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-details li {
+    margin-bottom: 0.2rem;
+    position: relative;
+    list-style-type: none;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.project-details li::before {
+    content: '▹';
+    position: absolute;
+    left: -1rem;
+    color: var(--primary);
+}
+
+/* Contact Social Links */
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    justify-content: center;
+}
+
+.social-btn {
+    width: 45px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-main);
+    font-size: 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(56, 189, 248, 0.3);
+}
+
+/* Floating Icon Colors */
+.c-django i {
+    color: #092E20;
+}
+
+/* Django Green */
+.c-flask i {
+    color: #ffffff;
+}
+
+/* Flask White */
+.c-docker i {
+    color: #2496ED;
+}
+
+/* Docker Blue */
+.c-git i {
+    color: #F05032;
+}
+
+/* Git Orange */
+.c-db i {
+    color: #4479A1;
+}
+
+/* SQL Blue */
+.c-api i {
+    color: #E10098;
+}
+
+/* GraphQL Pink */
+.c-ml i {
+    color: #FF6F61;
+}
+
+/* Coral */
+.c-ai i {
+    color: #00BFA5;
+}
+
+/* Teal */
